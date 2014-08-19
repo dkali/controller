@@ -1,0 +1,1 @@
+pscp -r -pw azrael pi@192.168.1.79:/home/pi/controller c:\Users\ruindkal\pi\controller
