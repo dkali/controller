@@ -6,14 +6,7 @@
 #include <linux/input.h>
 #include <string.h>
 #include <stdio.h>
-
 #include <map>
-
-static const char *const evval[3] = {
-    "RELEASED",
-    "PRESSED ",
-    "REPEATED"
-};
 
 #define JSKEY_A     0x001
 #define JSKEY_B     0x101
@@ -44,7 +37,6 @@ static const char *const evval[3] = {
 #define JSKEY_CROSS_LOW_VALUE 0xffff8001
 #define JSKEY_CROSS_HIGH_VALUE 0x7fff
 #define JSKEY_CROSS_RELEASED 0x0
-
 
 
 using namespace std;
